@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/mnt/7c29025e-8959-4011-9c6c-607048c15cfc/ZS/job_works/calib/MonocularCalibration'
+make: Leaving directory '/mnt/7c29025e-8959-4011-9c6c-607048c15cfc/ZS/job_works/calib/MonocularCalibration'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+

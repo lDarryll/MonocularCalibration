@@ -1,0 +1,252 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2014 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu Aug 25 10:34:22 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+VSCODE_AGENT_FOLDER = /home/lch/.vscode-server
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# default
+MAKE_VERSION := 4.1
+# makefile
+CURDIR := /mnt/7c29025e-8959-4011-9c6c-607048c15cfc/ZS/job_works/calib/MonocularCalibration
+# makefile
+SHELL = /bin/sh
+# environment
+JRE_HOME = /usr/local/java/jdk1.8.0_333/jre
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
+# environment
+_ = /home/lch/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/node
+# makefile
+MAKEFILE_LIST := 
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+ROS_ETC_DIR = /opt/ros/melodic/etc/ros
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+ROS_PACKAGE_PATH = /home/lch/zed1_ws/src:/home/lch/catkin_ws/src:/opt/ros/melodic/share
+# environment
+ROS_PYTHON_VERSION = 2
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/lch
+# environment
+SSH_CONNECTION = 127.0.0.1 40844 127.0.0.1 22
+# environment
+PATH = /home/lch/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/bin/remote-cli:/home/lch/.local/bin:/opt/ros/melodic/bin:/home/lch/anaconda3/condabin:/usr/local/cuda/bin:/usr/local/cuda/nsight-compute-2021.2.2:/home/lch/anaconda3/bin:/usr/local/java/jdk1.8.0_333/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+ROS_ROOT = /opt/ros/melodic/share/ros
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+CMAKE_PREFIX_PATH = /home/lch/zed1_ws/devel:/home/lch/catkin_ws/devel:/opt/ros/melodic
+# environment
+LS_COLORS = 
+# environment
+ROS_DISTRO = melodic
+# automatic
+%F = $(notdir $%)
+# environment
+CONDA_EXE = /home/lch/anaconda3/bin/conda
+# environment
+PWD = /mnt/7c29025e-8959-4011-9c6c-607048c15cfc/ZS/job_works/calib/MonocularCalibration
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-b480e352-6bab-4e30-bb2a-d12e52d8a32f.sock
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+PKG_CONFIG_PATH = /home/lch/zed1_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig:/usr/local/lib/pkgconfig
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/lch
+# environment
+LD_LIBRARY_PATH = /home/lch/zed1_ws/devel/lib:/home/lch/catkin_ws/devel/lib:/opt/ros/melodic/lib:/usr/local/cuda/lib64/:/home/lch/TensorRT-5.1.5.0/lib
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+LOGNAME = lch
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 3
+# environment
+JAVA_HOME = /usr/local/java/jdk1.8.0_333
+# environment
+XDG_SESSION_ID = 36
+# environment
+USER = lch
+# makefile
+.DEFAULT_GOAL := 
+# environment
+CLASSPATH = .:/usr/local/java/jdk1.8.0_333/lib:/usr/local/java/jdk1.8.0_333/jre/lib
+# environment
+ROSLISP_PACKAGE_DIRECTORIES = /home/lch/zed1_ws/devel/share/common-lisp:/home/lch/catkin_ws/devel/share/common-lisp
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+CONDA_SHLVL = 0
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = en_US:en
+# environment
+PYTHONPATH = /home/lch/zed1_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_CLIENT = 127.0.0.1 40844 22
+# environment
+MAIL = /var/mail/lch
+# environment
+ROS_VERSION = 1
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+BROWSER = /home/lch/.vscode-server/bin/6d9b74a70ca9c7733b29f0456fd8195364076dda/bin/helpers/browser.sh
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+ROS_MASTER_URI = http://localhost:11311
+# environment
+LC_ALL = C
+# environment
+CONDA_PYTHON_EXE = /home/lch/anaconda3/bin/python
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+_CE_M = 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+LANG = C
+# environment
+_CE_CONDA = 
+# variable set hash-table stats:
+# Load=84/1024=8%, Rehash=0, Collisions=8/106=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2065, inode 75898289): 14 files, no impossibilities.
+
+# 14 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 22 / storage = 207 B / avg = 9 B
+# current buf: size = 8162 B / used = 207 B / count = 22 / avg = 9 B
+
+# strcache performance: lookups = 25 / hit rate = 12%
+# hash-table stats:
+# Load=22/8192=0%, Rehash=0, Collisions=1/25=4%
+# Finished Make data base on Thu Aug 25 10:34:22 2022
+
+ 

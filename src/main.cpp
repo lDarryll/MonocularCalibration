@@ -9,8 +9,6 @@ using namespace std;
 using namespace cv;
 
 
-
-
 void getImages(string configutationFile, vector<Mat>& images)
 {
     ifstream fin(configutationFile);
